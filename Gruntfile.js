@@ -46,10 +46,10 @@ module.exports = function(grunt) {
               name: 'main',
               exclude: ['libraries']
             },
-            {
-              name: 'ide',
-              exclude: ['pdfjs-dist/build/pdf', 'libraries']
-            },
+            // {
+            //   name: 'ide',
+            //   exclude: ['pdfjs-dist/build/pdf', 'libraries']
+            // },
             {
               name: 'libraries'
             },
